@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://caseconvertertool.vercel.app/sitemap.xml
+Sitemap: https://case-conversion.vercel.app/sitemap.xml
 
 # Allow all major crawlers
 User-agent: Googlebot
