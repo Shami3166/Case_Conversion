@@ -1,4 +1,4 @@
-// app/robots.txt/route.tsx
+// app/robots.txt/route.ts
 export async function GET() {
   const robots = `# https://www.robots-txt.org/robots-txt.html
 User-agent: *
@@ -52,7 +52,7 @@ Allow: /about
 Allow: /contact
 Allow: /privacy-policy
 Allow: /terms-of-service
-Allow: /blog/
+Allow: /blogs/
 
 # Crawl delay (optional)
 Crawl-delay: 1`;

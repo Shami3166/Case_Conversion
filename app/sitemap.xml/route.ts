@@ -1,4 +1,4 @@
-// app/sitemap.xml/route.tsx
+// app/sitemap.xml/route.ts
 export async function GET() {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -43,50 +43,43 @@ export async function GET() {
   </url>
 
   <!-- 📝 BLOG PAGES -->
-
-  <!-- Google Docs Case Guide -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/how-to-change-text-case-google-docs</loc>
+    <loc>https://case-conversion.vercel.app/blogs/how-to-change-text-case-google-docs</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Google Sheets Case Guide -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/how-to-change-text-case-google-sheets</loc>
+    <loc>https://case-conversion.vercel.app/blogs/how-to-change-text-case-google-sheets</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Microsoft Word Case Guide -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/how-to-change-text-case-microsoft-word</loc>
+    <loc>https://case-conversion.vercel.app/blogs/how-to-change-text-case-microsoft-word</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Common Text Case Mistakes -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/common-text-case-mistakes</loc>
+    <loc>https://case-conversion.vercel.app/blogs/common-text-case-mistakes</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Why Proper Capitalization Matters -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/why-proper-capitalization-matters</loc>
+    <loc>https://case-conversion.vercel.app/blogs/why-proper-capitalization-matters</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Mobile Text Case Change -->
   <url>
-    <loc>https://case-conversion.vercel.app/blog/how-to-change-text-case-mobile</loc>
+    <loc>https://case-conversion.vercel.app/blogs/how-to-change-text-case-mobile</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -96,7 +89,8 @@ export async function GET() {
   return new Response(sitemap, {
     status: 200,
     headers: {
-      "Content-Type": "application/xml",
+      'Content-Type': 'application/xml',
+      'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate',
     },
   });
 }
