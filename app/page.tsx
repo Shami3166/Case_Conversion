@@ -5,7 +5,7 @@ import FAQ from "@/components/FAQ";
 export const metadata = {
   title: "Case Converter – Free Online Text Case Conversion Tool 2025",
   description:
-    "Case Converter is a free and simple online tool to change your text to lowercase, uppercase, title case, sentence case, or capitalized case — quickly and easily.",
+    "Case Converter is a free and simple online tool to change your text to lowercase, uppercase, title case, sentence case, or capitalized case — quickly.",
   keywords:
     "case converter,how to change lower case to upper case,how to make small letters capital in word,what is title case, how to change a sentence from caps to lowercase,how to convert text to sentence case, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool,convert to small case,capital to small case converter,lower case converter,capital to sentence case,title case capitalizations",
   alternates: {
@@ -38,6 +38,27 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center px-4 py-12">
       {/* ✅ Hero Section */}
+      {/* // Add this script to your main tool page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "Case Converter Tool",
+            description: "Free online text case conversion tool",
+            url: "https://yourdomain.com",
+            applicationCategory: "UtilityApplication",
+            operatingSystem: "Any",
+            permissions: "browser",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "USD",
+            },
+          }),
+        }}
+      />
       <section className="max-w-3xl text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
           🔠 Free Online Case Converter

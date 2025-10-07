@@ -5,6 +5,16 @@ const nextConfig = {
   },
   compress: true,
   poweredByHeader: false,
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.caseconverter.vercel.app' }],
+        destination: 'https://caseconverter.vercel.app/:path*',
+        permanent: true,
+      },
+    ]
+  },
   headers: async () => [
     {
       source: '/(.*)',

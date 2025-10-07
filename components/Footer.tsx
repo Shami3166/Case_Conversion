@@ -1,5 +1,5 @@
 "use client";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, BookOpen } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -11,6 +11,27 @@ const Footer = () => {
     { name: "Contact", path: "/contact" },
     { name: "Privacy Policy", path: "/privacy-policy" },
     { name: "Terms of Service", path: "/terms-of-service" },
+  ];
+
+  const blogLinks = [
+    {
+      name: "Google Docs Case",
+      path: "/blogs/how-to-change-text-case-google-docs",
+    },
+    {
+      name: "Google Sheets Case",
+      path: "/blogs/how-to-change-text-case-google-sheets",
+    },
+    {
+      name: "Microsoft Word Case",
+      path: "/blogs/how-to-change-text-case-microsoft-word",
+    },
+    { name: "Common Case Mistakes", path: "/blogs/common-text-case-mistakes" },
+    {
+      name: "Capitalization Matters",
+      path: "/blogs/why-proper-capitalization-matters",
+    },
+    { name: "Mobile Text Case", path: "/blogs/how-to-change-text-case-mobile" },
   ];
 
   const socialLinks = [
@@ -39,9 +60,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white border-t border-gray-800">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {/* Brand Section */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">C</span>
@@ -74,10 +95,30 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Blog Links */}
+          <div>
+            <h4 className="font-semibold text-lg mb-4 flex items-center">
+              <BookOpen className="w-4 h-4 mr-2" />
+              Blog Guides
+            </h4>
+            <ul className="space-y-3">
+              {blogLinks.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.path}
+                    className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Connect */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Connect</h4>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400 mb-4 text-sm">
               Have questions or want to collaborate?
             </p>
             <div className="flex space-x-4">

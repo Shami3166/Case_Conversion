@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     icon: [{ url: "/icon.jpeg", type: "image/jpeg" }],
   },
   description:
-    "Case Converter is a free and simple online tool to change your text to lowercase, uppercase, title case, sentence case, or capitalized case — quickly and easily.",
+    "Case Converter is a free and simple online tool to change your text to lowercase, uppercase, title case, sentence case, or capitalized case — quickly .",
   keywords:
     "case converter, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool",
   robots: "index, follow",
