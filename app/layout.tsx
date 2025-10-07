@@ -4,6 +4,7 @@ import { Toaster } from "sonner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import Script from "next/script"; // Import Script component
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -63,6 +64,20 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        {/* Google Analytics with Next.js Script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-KNY5ST6KX4"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KNY5ST6KX4');
+          `}
+        </Script>
+
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-grow">{children}</main>
