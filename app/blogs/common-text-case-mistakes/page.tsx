@@ -21,16 +21,16 @@ export const metadata = {
     "text case mistakes, common capitalization errors, fix text case, uppercase lowercase mistakes, title case errors, sentence case formatting, capitalization rules, text formatting mistakes, case converter tool, professional writing tips",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/common-text-case-mistakes",
+      "https://case-conversion.vercel.app/blog/common-text-case-mistakes",
   },
   openGraph: {
     title: "5 Common Text Case Mistakes and How to Fix Them",
     description:
       "Fix capitalization errors in your writing. Learn common text case mistakes and how to avoid them with our free case converter tool.",
-    url: "https://caseconverter.vercel.app/blog/common-text-case-mistakes",
+    url: "https://case-conversion.vercel.app/blog/common-text-case-mistakes",
     images: [
       {
-        url: "https://caseconverter.vercel.app/mistakes.webp",
+        url: "https://case-conversion.vercel.app/mistakes.webp",
         width: 1200,
         height: 630,
         alt: "Common Text Case Mistakes - Fix Capitalization Errors",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "5 Common Text Case Mistakes to Avoid",
     description:
       "Fix text capitalization errors and improve your writing instantly.",
-    images: ["https://caseconverter.vercel.app/mistakes.webp"],
+    images: ["https://case-conversion.vercel.app/mistakes.webp"],
   },
 };
 

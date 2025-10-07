@@ -26,13 +26,13 @@ export const metadata: Metadata = {
       "Convert your text instantly to lowercase, uppercase, sentence case, or title case. 100% free, privacy-focused, and works right in your browser.",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
       },
     ],
-    url: "https://caseconverter.vercel.app/",
+    url: "https://case-conversion.vercel.app/",
     type: "website",
     siteName: "Case Converter",
   },
@@ -41,7 +41,10 @@ export const metadata: Metadata = {
     title: "Case Converter – Free Online Text Case Converter Tool",
     description:
       "Instantly convert text to lowercase, uppercase, title case, or sentence case. Free, fast, and privacy-safe.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
+  },
+  other: {
+    "google-site-verification": "H2FseLCWxQsqB1-lBh4VEpO3wXwWfCdjG7c3-OdlqBU",
   },
 };
 
@@ -52,6 +55,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="H2FseLCWxQsqB1-lBh4VEpO3wXwWfCdjG7c3-OdlqBU"
+        />
+      </head>
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           <Navbar />

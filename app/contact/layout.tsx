@@ -7,16 +7,16 @@ export const metadata: Metadata = {
   keywords:
     "contact CaseConverter, Case Converter support, get in touch, case change converter, case support manager, case support status text case converter help, online text tool contact",
   alternates: {
-    canonical: "https://caseconverter.vercel.app/contact",
+    canonical: "https://case-conversion.vercel.app/contact",
   },
   openGraph: {
     title: "Contact | CaseConverter",
     description:
       "Have questions or feedback? Contact CaseConverter easily via email or form. We usually reply within 24 hours.",
-    url: "https://caseconverter.vercel.app/contact",
+    url: "https://case-conversion.vercel.app/contact",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Contact | CaseConverter",
     description:
       "Have questions or feedback? Contact CaseConverter easily via email or form.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
   },
 };
 

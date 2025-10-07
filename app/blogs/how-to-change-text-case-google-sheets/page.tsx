@@ -22,16 +22,16 @@ export const metadata = {
     "change text case google sheets, google sheets uppercase lowercase, upper function google sheets, lower function sheets, proper function google sheets, text case converter sheets, google sheets capitalization, spreadsheet text formatting, sheets case conversion, excel text case google sheets",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/how-to-change-text-case-google-sheets",
+      "https://case-conversion.vercel.app/blog/how-to-change-text-case-google-sheets",
   },
   openGraph: {
     title: "How to Change Text Case in Google Sheets - Complete Guide",
     description:
       "Learn Google Sheets text case formulas: UPPER, LOWER, PROPER functions. Plus quick online conversion method for instant results.",
-    url: "https://caseconverter.vercel.app/blog/how-to-change-text-case-google-sheets",
+    url: "https://case-conversion.vercel.app/blog/how-to-change-text-case-google-sheets",
     images: [
       {
-        url: "https://caseconverter.vercel.app/sheets-case.webp",
+        url: "https://case-conversion.vercel.app/sheets-case.webp",
         width: 1200,
         height: 630,
         alt: "Google Sheets Text Case Formulas - UPPER, LOWER, PROPER Functions",
@@ -44,7 +44,7 @@ export const metadata = {
     title: "Google Sheets Text Case Guide",
     description:
       "Master text case conversion in Google Sheets with formulas and tools.",
-    images: ["https://caseconverter.vercel.app/sheets-case.webp"],
+    images: ["https://case-conversion.vercel.app/sheets-case.webp"],
   },
 };
 

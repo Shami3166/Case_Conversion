@@ -25,16 +25,16 @@ export const metadata = {
     "change text case mobile phone, iphone uppercase lowercase, android text case conversion, mobile keyboard capitalization, text case converter mobile, ios android case change, mobile writing tips, phone text formatting, mobile case converter tool, smartphone capitalization",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/how-to-change-text-case-mobile",
+      "https://case-conversion.vercel.app/blog/how-to-change-text-case-mobile",
   },
   openGraph: {
     title: "How to Change Text Case on Mobile Phones (iOS & Android)",
     description:
       "Fix text case on iPhone and Android. Learn mobile keyboard shortcuts and use online case converter for perfect formatting anywhere.",
-    url: "https://caseconverter.vercel.app/blog/how-to-change-text-case-mobile",
+    url: "https://case-conversion.vercel.app/blog/how-to-change-text-case-mobile",
     images: [
       {
-        url: "https://caseconverter.vercel.app/mobile-case.webp",
+        url: "https://case-conversion.vercel.app/mobile-case.webp",
         width: 1200,
         height: 630,
         alt: "Mobile Text Case Conversion - iOS & Android Guide",
@@ -47,7 +47,7 @@ export const metadata = {
     title: "Mobile Text Case Guide - iOS & Android",
     description:
       "Change text case on mobile phones instantly with our complete guide.",
-    images: ["https://caseconverter.vercel.app/mobile-case.webp"],
+    images: ["https://case-conversion.vercel.app/mobile-case.webp"],
   },
 };
 

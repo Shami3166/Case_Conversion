@@ -26,16 +26,16 @@ export const metadata = {
     "proper capitalization professional writing, why capitalization matters, professional writing tips, business communication, capitalization rules professional, writing credibility, professional email writing, business writing standards, text case professional, capitalization importance",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/why-proper-capitalization-matters",
+      "https://case-conversion.vercel.app/blog/why-proper-capitalization-matters",
   },
   openGraph: {
     title: "Why Proper Capitalization Matters in Professional Writing",
     description:
       "Learn how capitalization affects professionalism, credibility, and communication in business writing. Essential tips for professional communication.",
-    url: "https://caseconverter.vercel.app/blog/why-proper-capitalization-matters",
+    url: "https://case-conversion.vercel.app/blog/why-proper-capitalization-matters",
     images: [
       {
-        url: "https://caseconverter.vercel.app/matters.webp",
+        url: "https://case-conversion.vercel.app/matters.webp",
         width: 1200,
         height: 630,
         alt: "Professional Writing Capitalization Matters - Business Communication",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Capitalization in Professional Writing",
     description:
       "Why proper capitalization matters for credibility and professionalism in business communication.",
-    images: ["https://caseconverter.vercel.app/matters.webp"],
+    images: ["https://case-conversion.vercel.app/matters.webp"],
   },
 };
 

@@ -22,16 +22,16 @@ export const metadata = {
     "change text case microsoft word, word uppercase lowercase, microsoft word capitalization, shift f3 word, word change case button, text case converter word, word formatting tips, title case word, sentence case microsoft word, word keyboard shortcuts",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/how-to-change-text-case-microsoft-word",
+      "https://case-conversion.vercel.app/blog/how-to-change-text-case-microsoft-word",
   },
   openGraph: {
     title: "How to Change Text Case in Microsoft Word - Complete Guide",
     description:
       "Master Microsoft Word text case conversion with toolbar, shortcuts, and online tools. Fix capitalization instantly.",
-    url: "https://caseconverter.vercel.app/blog/how-to-change-text-case-microsoft-word",
+    url: "https://case-conversion.vercel.app/blog/how-to-change-text-case-microsoft-word",
     images: [
       {
-        url: "https://caseconverter.vercel.app/msWord.webp",
+        url: "https://case-conversion.vercel.app/msWord.webp",
         width: 1200,
         height: 630,
         alt: "Microsoft Word Text Case Conversion - Change Case Options",
@@ -43,7 +43,7 @@ export const metadata = {
     card: "summary_large_image" as const,
     title: "Microsoft Word Text Case Guide",
     description: "Change text case in Word instantly with shortcuts and tools.",
-    images: ["https://caseconverter.vercel.app/msWord.webp"],
+    images: ["https://case-conversion.vercel.app/msWord.webp"],
   },
 };
 

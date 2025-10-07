@@ -9,16 +9,16 @@ export const metadata = {
   keywords:
     "CaseConverter privacy policy, no data collection, browser-based tool, no cookies, user privacy, secure text converter, local text conversion",
   alternates: {
-    canonical: "https://caseconverter.vercel.app/privacy-policy",
+    canonical: "https://case-conversion.vercel.app/privacy-policy",
   },
   openGraph: {
     title: "Privacy Policy | CaseConverter",
     description:
       "CaseConverter is privacy-first: no data storage, no tracking, no cookies. All text processing happens locally in your browser for maximum security.",
-    url: "https://caseconverter.vercel.app/privacy-policy",
+    url: "https://case-conversion.vercel.app/privacy-policy",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Privacy Policy | CaseConverter",
     description:
       "CaseConverter is privacy-first: no data storage, no tracking, no cookies.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
   },
 };
 

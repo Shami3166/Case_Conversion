@@ -12,16 +12,16 @@ export const metadata = {
     "change text case google docs, google docs uppercase lowercase, text case converter, capitalization google docs, how to change case in docs, google docs formatting, text capitalization, uppercase to lowercase docs, title case google docs, sentence case converter",
   alternates: {
     canonical:
-      "https://caseconverter.vercel.app/blog/how-to-change-text-case-google-docs",
+      "https://case-conversion.vercel.app/blog/how-to-change-text-case-google-docs",
   },
   openGraph: {
     title: "How to Change Text Case in Google Docs - CaseConverter",
     description:
       "Learn to change text case in Google Docs with our complete guide. Free case converter tool included.",
-    url: "https://caseconverter.vercel.app/blog/how-to-change-text-case-google-docs",
+    url: "https://case-conversion.vercel.app/blog/how-to-change-text-case-google-docs",
     images: [
       {
-        url: "https://caseconverter.vercel.app/docsCase.webp",
+        url: "https://case-conversion.vercel.app/docsCase.webp",
         width: 1200,
         height: 630,
         alt: "Google Docs Text Case Conversion - Uppercase, Lowercase, Title Case",
@@ -34,7 +34,7 @@ export const metadata = {
     title: "Google Docs Text Case Guide",
     description:
       "Change text case in Google Docs easily. Free online tool available.",
-    images: ["https://caseconverter.vercel.app/docsCase.webp"],
+    images: ["https://case-conversion.vercel.app/docsCase.webp"],
   },
 };
 

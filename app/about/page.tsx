@@ -10,16 +10,16 @@ export const metadata = {
   keywords:
     "about case converter,how to change lower case to upper case,what is title case, text case tool, free text converter, uppercase lowercase tool, online text case converter, capitalize text online",
   alternates: {
-    canonical: "https://caseconverter.vercel.app/about",
+    canonical: "https://case-conversion.vercel.app/about",
   },
   openGraph: {
     title: "About Case Converter – Free Online Text Case Tool",
     description:
       "Discover more about Case Converter — your free online text case conversion tool designed for everyone who works with text.",
-    url: "https://caseconverter.vercel.app/about",
+    url: "https://case-conversion.vercel.app/about",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
@@ -32,7 +32,7 @@ export const metadata = {
     title: "About Case Converter – Free Online Text Case Tool",
     description:
       "Case Converter is a free browser-based tool to convert text between uppercase, lowercase, title case, and more instantly.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
   },
 };
 

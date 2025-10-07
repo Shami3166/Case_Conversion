@@ -9,16 +9,16 @@ export const metadata = {
   keywords:
     "case converter,how to change lower case to upper case,how to make small letters capital in word,what is title case, how to change a sentence from caps to lowercase,how to convert text to sentence case, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool,convert to small case,capital to small case converter,lower case converter,capital to sentence case,title case capitalizations",
   alternates: {
-    canonical: "https://caseconverter.vercel.app/",
+    canonical: "https://case-conversion.vercel.app/",
   },
   openGraph: {
     title: "Case Converter – Free Online Text Case Conversion Tool 2025",
     description:
       "Convert your text instantly to lowercase, uppercase, sentence case, or title case. 100% free, privacy-focused, and works right in your browser.",
-    url: "https://caseconverter.vercel.app/",
+    url: "https://case-conversion.vercel.app/",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
@@ -30,7 +30,7 @@ export const metadata = {
     title: "Case Converter – Free Online Text Case Converter Tool",
     description:
       "Instantly convert text to lowercase, uppercase, title case, or sentence case. Free, fast, and privacy-safe.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
   },
 };
 

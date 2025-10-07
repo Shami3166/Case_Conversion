@@ -9,16 +9,16 @@ export const metadata = {
   keywords:
     "CaseConverter terms of service, user agreement, text conversion tool policy, online text case converter rules, free case converter terms, data usage policy",
   alternates: {
-    canonical: "https://caseconverter.vercel.app/terms-of-service",
+    canonical: "https://case-conversion.vercel.app/terms-of-service",
   },
   openGraph: {
     title: "Terms of Service | CaseConverter",
     description:
       "View CaseConverter's Terms of Service — learn how to use our free text case converter responsibly. 100% browser-based, private, and simple to use.",
-    url: "https://caseconverter.vercel.app/terms-of-service",
+    url: "https://case-conversion.vercel.app/terms-of-service",
     images: [
       {
-        url: "https://caseconverter.vercel.app/og-image.webp",
+        url: "https://case-conversion.vercel.app/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Case Converter Tool",
@@ -31,7 +31,7 @@ export const metadata = {
     title: "Terms of Service | CaseConverter",
     description:
       "View CaseConverter's Terms of Service — learn how to use our free text case converter responsibly.",
-    images: ["https://caseconverter.vercel.app/og-image.webp"],
+    images: ["https://case-conversion.vercel.app/og-image.webp"],
   },
 };
 
