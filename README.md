@@ -34,3 +34,58 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+
+case-converter-nextjs/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx                          ← Main tool (home page)
+│   ├── about/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── privacy-policy/
+│   │   └── page.tsx
+│   ├── terms-of-service/
+│   │   └── page.tsx
+│   ├── sitemap.xml/
+│   │   └── route.tsx
+│   ├── robots.txt/
+│   │   └── route.tsx
+│   └── blogs/
+│       ├── how-to-change-text-case-mobile/
+│       │   └── page.tsx
+│       ├── why-proper-capitalization-matters/
+│       │   └── page.tsx
+│       ├── common-text-case-mistakes/
+│       │   └── page.tsx
+│       ├── how-to-change-text-case-microsoft-word/
+│       │   └── page.tsx
+│       ├── how-to-change-text-case-google-sheets/
+│       │   └── page.tsx
+│       └── how-to-change-text-case-google-docs/
+│           └── page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── CaseConverter.tsx
+│   └── FAQ.tsx
+├── hooks/
+│   └── useCaseConverter.ts
+├── utils/
+│   └── caseConverter.ts
+├── lib/
+│   └── utils.ts                         ← shadcn/utils (auto-generated)
+├── public/
+│   ├── (your static assets if any)
+├── tailwind.config.ts
+├── components.json
+├── next.config.js
+├── tsconfig.json
+├── package.json
+└── README.md

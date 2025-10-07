@@ -1,103 +1,103 @@
-import Image from "next/image";
+import CaseConverter from "@/components/CaseConverter";
+import FAQ from "@/components/FAQ";
 
-export default function Home() {
+// 🔹 PAGE-SPECIFIC METADATA (overrides global for homepage)
+export const metadata = {
+  title: "Case Converter – Free Online Text Case Conversion Tool 2025",
+  description:
+    "Case Converter is a free and simple online tool to change your text to lowercase, uppercase, title case, sentence case, or capitalized case — quickly and easily.",
+  keywords:
+    "case converter,how to change lower case to upper case,how to make small letters capital in word,what is title case, how to change a sentence from caps to lowercase,how to convert text to sentence case, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool,convert to small case,capital to small case converter,lower case converter,capital to sentence case,title case capitalizations",
+  alternates: {
+    canonical: "https://caseconverter.vercel.app/",
+  },
+  openGraph: {
+    title: "Case Converter – Free Online Text Case Conversion Tool 2025",
+    description:
+      "Convert your text instantly to lowercase, uppercase, sentence case, or title case. 100% free, privacy-focused, and works right in your browser.",
+    url: "https://caseconverter.vercel.app/",
+    images: [
+      {
+        url: "https://caseconverter.vercel.app/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Case Converter Tool",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image" as const,
+    title: "Case Converter – Free Online Text Case Converter Tool",
+    description:
+      "Instantly convert text to lowercase, uppercase, title case, or sentence case. Free, fast, and privacy-safe.",
+    images: ["https://caseconverter.vercel.app/og-image.webp"],
+  },
+};
+
+export default function HomePage() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="flex flex-col items-center justify-center px-4 py-12">
+      {/* ✅ Hero Section */}
+      <section className="max-w-3xl text-center mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+          🔠 Free Online Case Converter
+        </h1>
+        <p className="text-lg text-gray-600">
+          Instantly convert your text into{" "}
+          <span className="font-semibold">Sentence Case</span>,{" "}
+          <span className="font-semibold">lower case</span>,{" "}
+          <span className="font-semibold">UPPER CASE</span>,{" "}
+          <span className="font-semibold">Capitalize Case</span>, or{" "}
+          <span className="font-semibold">Title Case</span>. Simple, fast, and
+          free — no login required!
+        </p>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      {/* ✅ Tool Section */}
+      <section className="w-full max-w-4xl mb-12">
+        <CaseConverter />
+      </section>
+
+      {/* ✅ Details Section */}
+      <section className="max-w-3xl text-center text-gray-700 leading-relaxed mb-16">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+          Use Our Case Converter
+        </h2>
+        <p className="mb-4">
+          The Case Converter Tool is a simple, free, and easy-to-use online text
+          formatter. It helps you quickly change your text between uppercase,
+          lowercase, sentence case, title case, or capitalize case with just one
+          click.this tool use every one ., free open source tool— writers,
+          students, developers, and professionals — who often need to fix text
+          formatting in their daily work. Whether you&apos;re preparing a school
+          essay, writing a blog, creating a presentation, or updating content
+          for your website, CaseConverter makes it quick and effortless. You
+          don&apos;t need to sign up or install anything. Just open the site,
+          paste your text, choose the case style you want, and copy your
+          converted text instantly. Everything runs directly in your browser,
+          which means your data stays private — we never store or share anything
+          you type. The tool works on all the devices in computers .laptops,
+          mobiles, and all the other devicesr. So even if you&apos;re on the go,
+          you can still fix and format your text anytime. No distractions, no
+          ads, and no complicated menus — just clean, accurate results every
+          time. With CaseConverter, you can easily: Convert uppercase to
+          lowercase or lowercase to uppercase- Change text to title case for
+          headings- Fix sentence case for emails or essays- Make capitalize case
+          for names and titles .CaseConverter saves time, improves readability,
+          and gives your content a polished look. It&apos;s your free, reliable
+          tool for clean and consistent text formatting — simple, fast, and made
+          for everyone.
+        </p>
+        <p>
+          No sign-up, no distractions — just paste your text, choose your
+          preferred format, and copy it back instantly. Works on any device!
+        </p>
+      </section>
+
+      {/* ✅ FAQ Section */}
+      <section className="w-full max-w-4xl mb-20">
+        <FAQ />
+      </section>
     </div>
   );
 }
